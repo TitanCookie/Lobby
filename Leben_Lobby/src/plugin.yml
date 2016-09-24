@@ -1,0 +1,13 @@
+name: Lobby
+authors: [Mondei1, MrCookieWarrior]
+version: 1.0
+main: de.Mondei1.Lobby.Main.Lobby
+
+commands:
+    kick:
+        aliases: [k]
+        description: Kickt einen Spieler vom Server
+permissions:
+    lobby.kick:
+        default: op
+    
